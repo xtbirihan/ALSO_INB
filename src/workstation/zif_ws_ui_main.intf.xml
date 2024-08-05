@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_WS_UI_MAIN</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAIN_SCREEN_NO</CMPNAME>
+     <SCONAME>RV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS</CMPNAME>
+     <SCONAME>ET_EXCLUDES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUBSCREEN_CTRL</CMPNAME>
+     <SCONAME>RO_SUBSCR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TITLE</CMPNAME>
+     <SCONAME>EV_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TITLE</CMPNAME>
+     <SCONAME>EV_TITLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Title Line</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT</CMPNAME>
+     <SCONAME>EV_DEFAULT_NEEDED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation defaults</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT</CMPNAME>
+     <SCONAME>IO_SUBSCREEN_UI</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PAI</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>EV_TAB_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>EV_TAB_SUBSCREEN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESS_USER_COMMAND</CMPNAME>
+     <SCONAME>ES_BAPIRET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESS_USER_COMMAND</CMPNAME>
+     <SCONAME>IV_UCOMM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+*---------------------------------------------------------------------*
+*    view related data declarations
+*---------------------------------------------------------------------*
+*...processing: ZMV_PCKSSEQMAP..................................*
+TABLES: ZMV_PCKSSEQMAP, *ZMV_PCKSSEQMAP. "view work areas
+CONTROLS: TCTRL_ZMV_PCKSSEQMAP
+TYPE TABLEVIEW USING SCREEN '0003'.
+DATA: BEGIN OF STATUS_ZMV_PCKSSEQMAP. "state vector
+          INCLUDE STRUCTURE VIMSTATUS.
+DATA: END OF STATUS_ZMV_PCKSSEQMAP.
+* Table for entries selected to show on screen
+DATA: BEGIN OF ZMV_PCKSSEQMAP_EXTRACT OCCURS 0010.
+INCLUDE STRUCTURE ZMV_PCKSSEQMAP.
+          INCLUDE STRUCTURE VIMFLAGTAB.
+DATA: END OF ZMV_PCKSSEQMAP_EXTRACT.
+* Table for all entries loaded from database
+DATA: BEGIN OF ZMV_PCKSSEQMAP_TOTAL OCCURS 0010.
+INCLUDE STRUCTURE ZMV_PCKSSEQMAP.
+          INCLUDE STRUCTURE VIMFLAGTAB.
+DATA: END OF ZMV_PCKSSEQMAP_TOTAL.
+
+*...processing: ZMV_PICKSTTYPE..................................*
+TABLES: ZMV_PICKSTTYPE, *ZMV_PICKSTTYPE. "view work areas
+CONTROLS: TCTRL_ZMV_PICKSTTYPE
+TYPE TABLEVIEW USING SCREEN '0002'.
+DATA: BEGIN OF STATUS_ZMV_PICKSTTYPE. "state vector
+          INCLUDE STRUCTURE VIMSTATUS.
+DATA: END OF STATUS_ZMV_PICKSTTYPE.
+* Table for entries selected to show on screen
+DATA: BEGIN OF ZMV_PICKSTTYPE_EXTRACT OCCURS 0010.
+INCLUDE STRUCTURE ZMV_PICKSTTYPE.
+          INCLUDE STRUCTURE VIMFLAGTAB.
+DATA: END OF ZMV_PICKSTTYPE_EXTRACT.
+* Table for all entries loaded from database
+DATA: BEGIN OF ZMV_PICKSTTYPE_TOTAL OCCURS 0010.
+INCLUDE STRUCTURE ZMV_PICKSTTYPE.
+          INCLUDE STRUCTURE VIMFLAGTAB.
+DATA: END OF ZMV_PICKSTTYPE_TOTAL.
+
+*...processing: ZMV_STTYPECUST..................................*
+TABLES: ZMV_STTYPECUST, *ZMV_STTYPECUST. "view work areas
+CONTROLS: TCTRL_ZMV_STTYPECUST
+TYPE TABLEVIEW USING SCREEN '0004'.
+DATA: BEGIN OF STATUS_ZMV_STTYPECUST. "state vector
+          INCLUDE STRUCTURE VIMSTATUS.
+DATA: END OF STATUS_ZMV_STTYPECUST.
+* Table for entries selected to show on screen
+DATA: BEGIN OF ZMV_STTYPECUST_EXTRACT OCCURS 0010.
+INCLUDE STRUCTURE ZMV_STTYPECUST.
+          INCLUDE STRUCTURE VIMFLAGTAB.
+DATA: END OF ZMV_STTYPECUST_EXTRACT.
+* Table for all entries loaded from database
+DATA: BEGIN OF ZMV_STTYPECUST_TOTAL OCCURS 0010.
+INCLUDE STRUCTURE ZMV_STTYPECUST.
+          INCLUDE STRUCTURE VIMFLAGTAB.
+DATA: END OF ZMV_STTYPECUST_TOTAL.
+
+*...processing: ZTINB_ENTITLED..................................*
+DATA:  BEGIN OF STATUS_ZTINB_ENTITLED                .   "state vector
+         INCLUDE STRUCTURE VIMSTATUS.
+DATA:  END OF STATUS_ZTINB_ENTITLED                .
+CONTROLS: TCTRL_ZTINB_ENTITLED
+            TYPE TABLEVIEW USING SCREEN '0001'.
+*.........table declarations:.................................*
+TABLES: *ZTINB_ENTITLED                .
+TABLES: ZTINB_ENTITLED                 .
+TABLES: ZTINB_PCKSSEQMAP               .
+TABLES: ZTINB_PICKSTTYPE               .
+TABLES: ZTINB_STTYPECUST               .
+
+* general table data declarations..............
+  INCLUDE LSVIMTDT                                .

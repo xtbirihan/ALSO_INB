@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRUD_ZTINB_PICKSTTYPE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Inbound: Picking Storage Types</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get multiple entries by warehourse number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM_MIXPAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get multiple entries by warehourse number and mix pallet fl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM_MONOPAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get multiple entries by warehourse number and mono pallet fl</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM</CMPNAME>
+     <SCONAME>RT_PICK_ST_TYPES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Picking Storage Types</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM_MIXPAL</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM_MIXPAL</CMPNAME>
+     <SCONAME>RT_PICK_ST_TYPES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Picking Storage Types</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM_MONOPAL</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_LGNUM_MONOPAL</CMPNAME>
+     <SCONAME>RT_PICK_ST_TYPES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Picking Storage Types</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

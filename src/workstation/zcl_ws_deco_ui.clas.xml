@@ -1,0 +1,2855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WS_DECO_UI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Deconsolidation UI controller</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>ATS</KEY>
+     <ENTRY>Add to Stock!</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CAN</KEY>
+     <ENTRY>Cancel</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CDE</KEY>
+     <ENTRY>Creation of new proposals and deletion of already existing ones?</ENTRY>
+     <LENGTH>128</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CON</KEY>
+     <ENTRY>Continue</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CRP</KEY>
+     <ENTRY>Create Proposals</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CVE</KEY>
+     <ENTRY>Vendor</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CWC</KEY>
+     <ENTRY>Use current</ENTRY>
+     <LENGTH>42</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DEE</KEY>
+     <ENTRY>Delete existing proposals ?</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DEU</KEY>
+     <ENTRY>The HU will be deleted</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DHU</KEY>
+     <ENTRY>Delete HUs</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>MCA</KEY>
+     <ENTRY>Master Cartons</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NDS</KEY>
+     <ENTRY>No data previously entered on main screen will be saved.</ENTRY>
+     <LENGTH>112</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NEN</KEY>
+     <ENTRY>Not entire content of this HU has been processed.</ENTRY>
+     <LENGTH>98</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PAC</KEY>
+     <ENTRY>Put-away in more than one master carton</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PAM</KEY>
+     <ENTRY>Put-away in more than one tote</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PCM</KEY>
+     <ENTRY>PC/Master Cartons</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PCP</KEY>
+     <ENTRY>PC/Tote</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PCT</KEY>
+     <ENTRY>PC</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PRD</KEY>
+     <ENTRY>Product</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>REP</KEY>
+     <ENTRY>Reset Proposals</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>RFI</KEY>
+     <ENTRY>Reset Fields</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SAM</KEY>
+     <ENTRY>Store as MC</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SAP</KEY>
+     <ENTRY>Store as single pieces</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SNE</KEY>
+     <ENTRY>Select new</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SNP</KEY>
+     <ENTRY>Selected product is not fully processed. Do you want to select new one?</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>TOT</KEY>
+     <ENTRY>Totes</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>UNW</KEY>
+     <ENTRY>unknown</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ATS</KEY>
+       <ENTRY>Add to Stock!</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAN</KEY>
+       <ENTRY>Cancel</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CDE</KEY>
+       <ENTRY>Creation of new proposals and deletion of already existing ones?</ENTRY>
+       <LENGTH>128</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CON</KEY>
+       <ENTRY>Continue</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CRP</KEY>
+       <ENTRY>Create Proposals</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CWC</KEY>
+       <ENTRY>Use current</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEE</KEY>
+       <ENTRY>Delete existing proposals ?</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEU</KEY>
+       <ENTRY>The HU will be deleted</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DHU</KEY>
+       <ENTRY>Delete HUs</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NDS</KEY>
+       <ENTRY>No data previously entered on main screen will be saved.</ENTRY>
+       <LENGTH>112</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEN</KEY>
+       <ENTRY>Not entire content of this HU has been processed.</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PAM</KEY>
+       <ENTRY>Put-away in more than one tote</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCP</KEY>
+       <ENTRY>PC/Tote</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCT</KEY>
+       <ENTRY>PC</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>REP</KEY>
+       <ENTRY>Reset Proposals</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RFI</KEY>
+       <ENTRY>Reset Fields</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAM</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAP</KEY>
+       <ENTRY>Store as single pieces</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNE</KEY>
+       <ENTRY>Select new</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNP</KEY>
+       <ENTRY>Selected product is not fully processed. Do you want to select new one?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TOT</KEY>
+       <ENTRY>Totes</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>UNW</KEY>
+       <ENTRY>unknown</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ATS</KEY>
+       <ENTRY>Add to Stock!</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAN</KEY>
+       <ENTRY>Cancel</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CDE</KEY>
+       <ENTRY>Creation of new proposals and deletion of already existing ones?</ENTRY>
+       <LENGTH>128</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CON</KEY>
+       <ENTRY>Continue</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CRP</KEY>
+       <ENTRY>Create Proposals</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CWC</KEY>
+       <ENTRY>Use current</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEE</KEY>
+       <ENTRY>Delete existing proposals ?</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEU</KEY>
+       <ENTRY>The HU will be deleted</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DHU</KEY>
+       <ENTRY>Delete HUs</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NDS</KEY>
+       <ENTRY>No data previously entered on main screen will be saved.</ENTRY>
+       <LENGTH>112</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEN</KEY>
+       <ENTRY>Not entire content of this HU has been processed.</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PAM</KEY>
+       <ENTRY>Put-away in more than one tote</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCP</KEY>
+       <ENTRY>PC/Tote</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCT</KEY>
+       <ENTRY>PC</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>REP</KEY>
+       <ENTRY>Reset Proposals</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RFI</KEY>
+       <ENTRY>Reset Fields</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAM</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAP</KEY>
+       <ENTRY>Store as single pieces</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNE</KEY>
+       <ENTRY>Select new</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNP</KEY>
+       <ENTRY>Selected product is not fully processed. Do you want to select new one?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TOT</KEY>
+       <ENTRY>Totes</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>UNW</KEY>
+       <ENTRY>unknown</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ATS</KEY>
+       <ENTRY>Add to Stock!</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAN</KEY>
+       <ENTRY>Cancel</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CDE</KEY>
+       <ENTRY>Creation of new proposals and deletion of already existing ones?</ENTRY>
+       <LENGTH>128</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CON</KEY>
+       <ENTRY>Continue</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CRP</KEY>
+       <ENTRY>Create Proposals</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CWC</KEY>
+       <ENTRY>Use current</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEE</KEY>
+       <ENTRY>Delete existing proposals ?</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEU</KEY>
+       <ENTRY>The HU will be deleted</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DHU</KEY>
+       <ENTRY>Delete HUs</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NDS</KEY>
+       <ENTRY>No data previously entered on main screen will be saved.</ENTRY>
+       <LENGTH>112</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEN</KEY>
+       <ENTRY>Not entire content of this HU has been processed.</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PAM</KEY>
+       <ENTRY>Put-away in more than one tote</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCP</KEY>
+       <ENTRY>PC/Tote</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCT</KEY>
+       <ENTRY>PC</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>REP</KEY>
+       <ENTRY>Reset Proposals</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RFI</KEY>
+       <ENTRY>Reset Fields</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAM</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAP</KEY>
+       <ENTRY>Store as single pieces</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNE</KEY>
+       <ENTRY>Select new</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNP</KEY>
+       <ENTRY>Selected product is not fully processed. Do you want to select new one?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TOT</KEY>
+       <ENTRY>Totes</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>UNW</KEY>
+       <ENTRY>unknown</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ATS</KEY>
+       <ENTRY>Add to Stock!</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAN</KEY>
+       <ENTRY>Cancel</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CDE</KEY>
+       <ENTRY>Creation of new proposals and deletion of already existing ones?</ENTRY>
+       <LENGTH>128</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CON</KEY>
+       <ENTRY>Continue</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CRP</KEY>
+       <ENTRY>Create Proposals</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CWC</KEY>
+       <ENTRY>Use current</ENTRY>
+       <LENGTH>42</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEE</KEY>
+       <ENTRY>Delete existing proposals ?</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DEU</KEY>
+       <ENTRY>The HU will be deleted</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DHU</KEY>
+       <ENTRY>Delete HUs</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NDS</KEY>
+       <ENTRY>No data previously entered on main screen will be saved.</ENTRY>
+       <LENGTH>112</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEN</KEY>
+       <ENTRY>Not entire content of this HU has been processed.</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PAM</KEY>
+       <ENTRY>Put-away in more than one tote</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCP</KEY>
+       <ENTRY>PC/Tote</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PCT</KEY>
+       <ENTRY>PC</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>REP</KEY>
+       <ENTRY>Reset Proposals</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>RFI</KEY>
+       <ENTRY>Reset Fields</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAM</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SAP</KEY>
+       <ENTRY>Store as single pieces</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNE</KEY>
+       <ENTRY>Select new</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SNP</KEY>
+       <ENTRY>Selected product is not fully processed. Do you want to select new one?</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TOT</KEY>
+       <ENTRY>Totes</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>UNW</KEY>
+       <ENTRY>unknown</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Delivery Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Change Delivery Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Change Delivery Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Change Delivery Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Change Delivery Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_HUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear the HU fueld</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_HUS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Clear the HU fueld</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_HUS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Clear the HU fueld</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_HUS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Clear the HU fueld</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_HUS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clear the HU fueld</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Proposal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Change Proposal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Change Proposal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Change Proposal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Change Proposal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_HU_EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear data when HU is empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_HU_EMPTY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Clear data when HU is empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_HU_EMPTY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Clear data when HU is empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_HU_EMPTY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Clear data when HU is empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_HU_EMPTY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clear data when HU is empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_PROD_EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear Data when Product empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_PROD_EMPTY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Clear Data when Product empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_PROD_EMPTY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Clear Data when Product empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_PROD_EMPTY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Clear Data when Product empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_DATA_WHEN_PROD_EMPTY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clear Data when Product empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_PMAT_DEP_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear Packaging material dependent data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_PMAT_DEP_DATA</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Clear Packaging material dependent data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_PMAT_DEP_DATA</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Clear Packaging material dependent data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_PMAT_DEP_DATA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Clear Packaging material dependent data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_PMAT_DEP_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clear Packaging material dependent data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_CHANGE_PROPOSAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DEFAULTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DEFAULTS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DEFAULTS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DEFAULTS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DEFAULTS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_LOG</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_LOG</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_LOG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_NEXT_WT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_NEXT_WT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_NEXT_WT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_NEXT_WT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_NEXT_WT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_PREVIOUS_WT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_PREVIOUS_WT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_PREVIOUS_WT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_PREVIOUS_WT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_PREVIOUS_WT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_WT_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_WT_LIST</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_WT_LIST</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_WT_LIST</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_WT_LIST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_IDART_INB_SHIP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Identification Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_IDART_INB_SHIP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Identification Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_IDART_INB_SHIP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Identification Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_IDART_INB_SHIP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Identification Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_IDART_INB_SHIP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Identification Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_EXCLUSIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_EXCLUSIVE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_EXCLUSIVE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_EXCLUSIVE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_EXCLUSIVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_SHARED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_SHARED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_SHARED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_SHARED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_MODE_SHARED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lock mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_OWNER_DIALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field of Length 1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_OWNER_DIALOG</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Character Field of Length 1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_OWNER_DIALOG</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Character Field of Length 1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_OWNER_DIALOG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Character Field of Length 1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_LOCK_OWNER_DIALOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Character Field of Length 1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_CAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_CAT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_CAT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_CAT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_CAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_ROLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_ROLE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_ROLE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_ROLE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PLANNED_PTWY_QTY_ROLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Quantity Role</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSCREEN_REPID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSCREEN_REPID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSCREEN_REPID</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSCREEN_REPID</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSCREEN_REPID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUB_DECO_PALLETS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUB_DECO_PALLETS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUB_DECO_PALLETS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUB_DECO_PALLETS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUB_DECO_PALLETS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Item Changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delivery Item Changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Delivery Item Changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Delivery Item Changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Delivery Item Changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Destination HU changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Destination HU changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Destination HU changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Destination HU changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Destination HU changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY_HUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY_HUS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Display HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY_HUS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Display HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY_HUS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Display HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY_HUS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Display HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PUOM_WH_REL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill Puom related data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PUOM_WH_REL_DATA</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Fill Puom related data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PUOM_WH_REL_DATA</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Fill Puom related data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PUOM_WH_REL_DATA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Fill Puom related data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_PUOM_WH_REL_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fill Puom related data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FUNCTION_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FUNCTION_LOG</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FUNCTION_LOG</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FUNCTION_LOG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FUNCTION_LOG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_GENERAL_FUNC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General UI functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_GENERAL_FUNC</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>General UI functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_GENERAL_FUNC</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>General UI functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_GENERAL_FUNC</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>General UI functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_GENERAL_FUNC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>General UI functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PTWY_CART_SP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Putaway Cart Functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PTWY_CART_SP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Putaway Cart Functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PTWY_CART_SP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Putaway Cart Functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PTWY_CART_SP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Putaway Cart Functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PTWY_CART_SP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Putaway Cart Functions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Services for Deco UI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Services for Deco UI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Services for Deco UI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Services for Deco UI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Services for Deco UI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_TEXT_HANDLING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text Handling</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_CURRENT_DLV_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Header (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS_PREV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS_PREV</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS_PREV</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS_PREV</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DECO_PALLETS_PREV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Deco Pallets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DEFAULTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DEFAULTS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DEFAULTS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DEFAULTS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DEFAULTS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DELIVERY_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DELIVERY_ITEM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DELIVERY_ITEM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DELIVERY_ITEM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_DELIVERY_ITEM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAT_LGTYP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material: Storage-Type-Specific Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAT_LGTYP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Material: Storage-Type-Specific Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAT_LGTYP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Material: Storage-Type-Specific Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAT_LGTYP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Material: Storage-Type-Specific Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_MAT_LGTYP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Material: Storage-Type-Specific Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DELIVERY_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DELIVERY_ITEM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DELIVERY_ITEM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DELIVERY_ITEM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DELIVERY_ITEM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_EXCLUDES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_EXCLUDES</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_EXCLUDES</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_EXCLUDES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_EXCLUDES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_INB_DELIVERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table for IDs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_INB_DELIVERY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table for IDs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_INB_DELIVERY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table for IDs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_INB_DELIVERY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table for IDs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_INB_DELIVERY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table for IDs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HU_UNKNOWN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HU_UNKNOWN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HU_UNKNOWN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HU_UNKNOWN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HU_UNKNOWN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_DOCID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Document ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_DOCID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Document ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_DOCID</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Document ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_DOCID</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Document ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_DOCID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Document ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_ITEMID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_ITEMID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Item ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_ITEMID</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Item ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_ITEMID</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Item ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LOCKED_ITEMID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Item ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packagin Material changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Packagin Material changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Packagin Material changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Packagin Material changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Packagin Material changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PUOM has been changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>PUOM has been changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>PUOM has been changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>PUOM has been changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>PUOM has been changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_ACTIVE_UI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_ACTIVE_UI</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_ACTIVE_UI</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_ACTIVE_UI</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_ACTIVE_UI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELIVERY_ITEM_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_DEST_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_DEST_HU</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_DEST_HU</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_DEST_HU</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_DEST_HU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DEST_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_PRODUCT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_PRODUCT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_PRODUCT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_PRODUCT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_PRODUCT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_WT_GRP</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_WT_GRP</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_WT_GRP</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_WT_GRP</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY_WT_GRP</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IT_LTAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IT_LTAP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IT_LTAP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IT_LTAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IT_LTAP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_NLTYP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Destination Storage Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_NLTYP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Destination Storage Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_NLTYP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Destination Storage Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_NLTYP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Destination Storage Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_NLTYP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Destination Storage Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_QTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Quantity for Put-away</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_QTY</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Quantity for Put-away</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_QTY</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Quantity for Put-away</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_QTY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Quantity for Put-away</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_QTY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Quantity for Put-away</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_UOM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_UOM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_UOM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_UOM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>IV_PUTAWAY_PER_WTS_UOM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_CREATE_PROPOSAL</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PRODUCT_INFORMATION</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PRODUCT_INFORMATION</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PRODUCT_INFORMATION</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PRODUCT_INFORMATION</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PRODUCT_INFORMATION</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_PUOM_WH_REL_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DELIVERY_ITEMS</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_GR_DUMMY_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_GR_DUMMY_HU</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_GR_DUMMY_HU</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_GR_DUMMY_HU</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>IV_GR_DUMMY_HU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GR_DUMMY_HU_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_DELIVERY_ITEM</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NEXT_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NEXT_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NEXT_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NEXT_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NEXT_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>IV_PMAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packaging Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>IV_PMAT</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Packaging Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>IV_PMAT</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Packaging Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>IV_PMAT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Packaging Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>IV_PMAT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Packaging Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKAGING_MAT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACK_PRINT_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACK_PRINT_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACK_PRINT_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACK_PRINT_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACK_PRINT_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREV_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREV_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREV_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREV_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREV_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>IV_UOM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>IV_UOM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>IV_UOM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>IV_UOM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>IV_UOM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUOM_WH_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REFRESH_CURRENT_DLV_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REFRESH_CURRENT_DLV_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REFRESH_CURRENT_DLV_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REFRESH_CURRENT_DLV_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REFRESH_CURRENT_DLV_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

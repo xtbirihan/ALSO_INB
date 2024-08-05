@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WS_MAIN</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Main UI</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DECO_PALLETS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DECO_PALLETS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DECO_PALLETS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DECO_PALLETS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DECO_PALLETS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_PRODCT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_PRODCT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_PRODCT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_PRODCT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DISPLAY_PRODCT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_REPL_UI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_REPL_UI</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_REPL_UI</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_REPL_UI</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_REPL_UI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_TOTE_PLACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_TOTE_PLACE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_TOTE_PLACE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_TOTE_PLACE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_TOTE_PLACE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_DECO_PALLETS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_REPL_UI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_REPL_UI</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_REPL_UI</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_REPL_UI</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_REPL_UI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_TOTE_PLACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_TOTE_PLACE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_TOTE_PLACE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_TOTE_PLACE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TAB_TOTE_PLACE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP system field: Function code that raised PAI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DECO_UI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DECO_UI</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DECO_UI</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DECO_UI</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DECO_UI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation UI Main Screen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TPDA: Tabstrip Attributes = CXTAB_TABSTRIP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>TPDA: Tabstrip Attributes = CXTAB_TABSTRIP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>TPDA: Tabstrip Attributes = CXTAB_TABSTRIP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>TPDA: Tabstrip Attributes = CXTAB_TABSTRIP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>TPDA: Tabstrip Attributes = CXTAB_TABSTRIP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_REPID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_REPID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_REPID</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_REPID</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_REPID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_TAB_SCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

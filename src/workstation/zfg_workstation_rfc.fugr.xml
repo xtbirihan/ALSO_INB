@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Workstation related RFC functions</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZFG_WORKSTATION_RFC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_INB_TO_PREP_WHR_UI_INT</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Generate Warehouse Tasks for Warehouse Request</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <TYP>/SCWM/LGNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MODE</PARAMETER>
+       <TYP>/SCWM/DE_WHR_TO_PROC_MODE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROCESS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/DE_TO_WHR_PROC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SQUIT</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/RL03TSQUIT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FULL_PICK</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/DE_FULL_PICK</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MVE_HU</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/DE_WHR_MVE_HU</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MVE_MAT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/DE_WHR_MVE_MAT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MVE_HU_MULT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/DE_WHR_MVE_HU_MULT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BNAME</PARAMETER>
+       <DEFAULT>SY-UNAME</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/LVS_BNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_WTCODE</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/DE_WTCODE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FILTER_HU</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_PARAM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/S_TO_CREATE_WHR_PARAM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ROUTE_CREA_PROD_LB</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_WAVE_RELEASE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/DE_WAVE_RELEASE_WHR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PREPARE_WHR_INT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/TT_TO_PREPARE_WHR_INT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PREPARE_HU_INT</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/TT_TO_PREPARE_HU_INT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FORCE_EMPTY_BIN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NO_LOCK_RELEASE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LOCATION_MIXED</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_LTAP_VB</PARAMETER>
+       <TYP>/SCWM/TT_LTAP_VB</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_LTAP_DEL</PARAMETER>
+       <TYP>/SCWM/TT_LTAP_VB</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_DOC</PARAMETER>
+       <TYP>/SCWM/TT_PDENIAL_ATTR</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_OPEN_QTY</PARAMETER>
+       <TYP>/SCWM/TT_WHR_OPEN_QTY</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_BAPIRET</PARAMETER>
+       <TYP>BAPIRETTAB</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_SEVERITY</PARAMETER>
+       <TYP>BAPI_MTYPE</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_WHR_ITEMS_CD</PARAMETER>
+       <TYP>/SCWM/DLV_ITEM_OUT_PRD_TAB</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number/Warehouse Complex</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Usage: &apos;D&apos; Dialogue, &apos;B&apos; Background</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROCESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Process When Creating a WT for a Warehouse Request</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SQUIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicator: Confirmation of Warehouse Task</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FULL_PICK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Completely Pick Warehouse Request</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MVE_HU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Move all HUs for a Warehouse Request</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MVE_MAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Move all Unpacked Products for Warehouse Request</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MVE_HU_MULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Move HU with Several Warehouse Requests</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User Name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_WTCODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Calling Application/Special Function for WT Creation/Conf.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FILTER_HU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Filter HU Depending On Open Quantities</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_PARAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parameter Structure for Function Module /SCWM/TO_CREATE_WHR</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ROUTE_CREA_PROD_LB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Create Putaway WT for HU with Storage Control</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_WAVE_RELEASE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Create Warehouse Task Through Wave Release</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PREPARE_WHR_INT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Internal Generation of Transfer Orders for Warehouse Request</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PREPARE_HU_INT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Internal Creation of Transfer Orders for Handling Unit</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FORCE_EMPTY_BIN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Force empty bin</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NO_LOCK_RELEASE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>General Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LOCATION_MIXED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Location is mixed</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_LTAP_VB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Created warehouse tasks</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_LTAP_DEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Deleted Warehouse Tasks (pick compl)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_DOC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Objects for pick denial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_OPEN_QTY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Open pick/putaway quantity</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_BAPIRET</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Protocol of warehouse task creation</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SEVERITY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Highest message severity, which happened during warehouse task creation</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_WHR_ITEMS_CD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Delivery Item (PRD) for Read Operations</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

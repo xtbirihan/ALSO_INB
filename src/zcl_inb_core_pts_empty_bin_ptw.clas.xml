@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INB_CORE_PTS_EMPTY_BIN_PTW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Inb. Ptwy Strat.: find empty bins</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_EMPTY_BINS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select empty bins based on penalty string</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_EMPTY_BINS</CMPNAME>
+     <SCONAME>IS_T331</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Type Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_EMPTY_BINS</CMPNAME>
+     <SCONAME>RT_EMPTY_LGPLA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for /SCWM/LAGPL</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

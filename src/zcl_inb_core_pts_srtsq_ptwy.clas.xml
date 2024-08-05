@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INB_CORE_PTS_SRTSQ_PTWY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Inb. Ptwy: update penalty list</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_MESSAGES_BAPIRET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Messages to Bapiret Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_PENALTY_SSEQU_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update penalty search sequence group</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_MESSAGES_BAPIRET</CMPNAME>
+     <SCONAME>CT_BAPIRET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PENALTY_SSEQU_GROUP</CMPNAME>
+     <SCONAME>IO_INST_PTWY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Storage type custom settings</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PENALTY_SSEQU_GROUP</CMPNAME>
+     <SCONAME>IT_PENALTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Structure /SCWM/S_PENALTY_SRT</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

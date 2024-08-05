@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_WORKSTATION</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Workstation messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Please enter Warehouse Number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Please enter Workstation Location</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Deconsolidation in Goods Receipt - Warehouse &amp;1 ( WS &amp;2 )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No Inbound Shipment is found for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No Inbound Shipment is entered for HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No HU or Inbound Shipment is found for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter a valid warehouse number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Workstation cannot be used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter a valid Workstation Location</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Material does not exist for &amp;1 with number, EAN or ManufactPartNo</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No delivery has been found for product &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No delivery item has been found for product &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 HU(s) has been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>HU &amp;1 could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Error during read of stock data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Delivery Item &amp;1/&amp;2 could not be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Delivery Item &amp;1/&amp;2 has succesfully changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Proposals are created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Ther is no packaging settings for storage type &amp;1 in ZTINB_WSPACK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Packaging settings for storage type &amp;1 is ambiguous</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>HUs and WTs are created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>&amp;1 is not packaging material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Material &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Invalid HU number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>HU &amp;1 is already scanned</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Parameters are not changed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Packaging material is not defined for &amp;1 in customizing ZTINB_WSPACK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Requested quantity may not exceed open putaway quantity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Not all required fields are filled. Transaction stopped.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>HU &amp;1 is not assigned to inbound shipment &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>No HU is entered.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Not entire content of this HU has been processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Please select delivery item!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>There is remaining quantity after the proposal</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Full pallet quantity cannot be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Please enter quantity for putaway</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Measurement unit &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Replenishment Work Center - Warehouse Number &amp;1 ( WS &amp;2 )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>You have already scanned all the HUs for the WTs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Please specify the destination HU ID number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>&amp;1 is processed by another user</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Destination Storage type &amp;1 is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Open WTs not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Bin has no stock, please go to Bin &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>HU number or Source location does not match.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Confirm Product does not match &amp;1 Prod, &amp;2 HU, or Source Bin &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>&amp;1 product does not maintained in &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Storage bin &amp;1 is not assigned to storage bin type &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Goods receive is not performed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Invalid configuration for packkage type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Cart ID in &amp;1 is shorter then &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Position on cart in &amp;1 is shorter then &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>&amp;1 contains superflous caracters &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Tote ID in &amp;1 is shorter then &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Enter a position on a cart or a totet id or a compartment id</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Invalid HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Package material &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Target storage type in cart &amp;1 differs from the target storage type &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Start bin location &amp;1 does not match destination storage type &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Enter/scan a cart position</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Enter/scan a tote</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Tote Placement - Warehouse &amp;1 ( WS &amp;2 )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>&amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Warehouse teask form hu type &amp;1 storage type &amp;2 cannot be created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>HU &amp;1 is used already</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Unit conversion error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>No pallet quantity is maintained for product &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>WT is being created in background for remaining qty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Action cannot be performed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Enter a value other then 0 in Number of WTs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Enter a value other then 0 in Quantity/WT</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Enter a valid Destination Storage Type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Please enter alternaive unit of measure</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Conversion from &amp;2 to &amp;3 is not maintained for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WORKSTATION</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>No proposal can be created, see application log</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

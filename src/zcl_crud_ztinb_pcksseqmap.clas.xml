@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRUD_ZTINB_PCKSSEQMAP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Mapping dummy search sequence to system search seq.</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_MULTI_BY_PUTSSEQ_MONPAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Storage Type Search Sequence Map. by STSS and Mixed Pal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_SINGLE_BY_PUT_DUMM_SSEQ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Storage Type Search Sequence Mapping</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_PUTSSEQ_MONPAL</CMPNAME>
+     <SCONAME>IV_DUMMY_SSEQ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Type Search Sequence: Putaway</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_PUTSSEQ_MONPAL</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_PUTSSEQ_MONPAL</CMPNAME>
+     <SCONAME>IV_STSS_MIXED_PALLET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>STSS for Mixed Pallet</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_PUTSSEQ_MONPAL</CMPNAME>
+     <SCONAME>RT_ST_SSEQ_MAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Mapping dummy search sequence to system search seq.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_PUT_DUMM_SSEQ</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_PUT_DUMM_SSEQ</CMPNAME>
+     <SCONAME>IV_PICK_STOCK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pick Stock</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_PUT_DUMM_SSEQ</CMPNAME>
+     <SCONAME>IV_PUT_SSEQ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Type Search Sequence: Putaway</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_PUT_DUMM_SSEQ</CMPNAME>
+     <SCONAME>RS_ST_SSEQ_MAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Mapping dummy search sequence to system search seq.</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

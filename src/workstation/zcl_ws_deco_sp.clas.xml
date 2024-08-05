@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WS_DECO_SP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Services for Deconsolidation UI</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACKING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACKING</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACKING</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACKING</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACKING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKST_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation Location Mono/Mixed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKST_SET</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation Location Mono/Mixed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKST_SET</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation Location Mono/Mixed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKST_SET</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation Location Mono/Mixed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKST_SET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation Location Mono/Mixed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BUFFER_LGPLA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BUFFER_LGPLA</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BUFFER_LGPLA</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BUFFER_LGPLA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BUFFER_LGPLA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SY_TO_BAPIRET</CMPNAME>
+     <SCONAME>CT_BAPIRET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SY_TO_BAPIRET</CMPNAME>
+     <SCONAME>CT_BAPIRET</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SY_TO_BAPIRET</CMPNAME>
+     <SCONAME>CT_BAPIRET</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SY_TO_BAPIRET</CMPNAME>
+     <SCONAME>CT_BAPIRET</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SY_TO_BAPIRET</CMPNAME>
+     <SCONAME>CT_BAPIRET</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CANCEL_WT</CMPNAME>
+     <SCONAME>IV_TANUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CANCEL_WT</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EMPTY_HU</CMPNAME>
+     <SCONAME>IV_DOCCAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Doc. Category for Doc. Reference and Doc.-Related Stock</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EMPTY_HU</CMPNAME>
+     <SCONAME>IV_DOCID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Doc. Identification for Document-Related Stocks</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EMPTY_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EMPTY_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

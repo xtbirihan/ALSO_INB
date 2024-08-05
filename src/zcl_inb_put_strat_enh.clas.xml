@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INB_PUT_STRAT_ENH</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for inb. implicit enh. for putaway strategy</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONSTANT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get params</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_GLOBAL_VARS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update Putaway rule and split</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_PUT_RULE_AND_SPLIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change global splitput &amp; put_rule based on Z customizing</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONSTANT</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONSTANT</CMPNAME>
+     <SCONAME>IV_PARAMETER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter ID for process</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONSTANT</CMPNAME>
+     <SCONAME>RV_CONST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter-Framework List Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_GLOBAL_VARS</CMPNAME>
+     <SCONAME>CV_PUT_RULE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Putaway Rules</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_GLOBAL_VARS</CMPNAME>
+     <SCONAME>CV_SPLITPUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PUT_RULE_AND_SPLIT</CMPNAME>
+     <SCONAME>CV_PUT_RULE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Putaway Rules</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PUT_RULE_AND_SPLIT</CMPNAME>
+     <SCONAME>CV_SPLITPUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PUT_RULE_AND_SPLIT</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PUT_RULE_AND_SPLIT</CMPNAME>
+     <SCONAME>IS_PENALTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sorting for Warehouse Position Evaluation</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_PUT_RULE_AND_SPLIT</CMPNAME>
+     <SCONAME>IS_T331</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Type Control</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

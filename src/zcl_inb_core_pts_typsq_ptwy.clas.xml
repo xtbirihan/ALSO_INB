@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_INB_CORE_PTS_TYPSQ_PTWY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Inb. Ptwy: change st. type and srch. sequ.</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_MESSAGES_BAPIRET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Messages to Bapiret Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_PICKING_STOCK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check for Picking Stock</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_MESSAGES_BAPIRET</CMPNAME>
+     <SCONAME>CT_BAPIRET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PICKING_STOCK</CMPNAME>
+     <SCONAME>ET_BAPIRET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PICKING_STOCK</CMPNAME>
+     <SCONAME>EV_PICK_STOCK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pick Stock</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PICKING_STOCK</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PICKING_STOCK</CMPNAME>
+     <SCONAME>IV_MAT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PICKING_STOCK</CMPNAME>
+     <SCONAME>IV_MIXED_PALLET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SELECT-OPTIONS Table</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRUD_INB_STTYPE_PTWY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Inbound: Storage type custom settings</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get an instance of the class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_ORIG_WT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_ST_TYPE_CUST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Storage type custom settings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PENALTY_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Structure /SCWM/S_PENALTY_SRT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ST_TYPE_CUST_USED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for used Storage type custom settings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_BY_LGNUM_PUT_SSEQ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read storage type custom settings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_INST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Storage type custom settings</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INST</CMPNAME>
+     <SCONAME>RO_INST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Storage type custom settings</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_LGNUM_PUT_SSEQ</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_LGNUM_PUT_SSEQ</CMPNAME>
+     <SCONAME>IV_PUT_SSEQ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Type Search Sequence: Putaway</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_LGNUM_PUT_SSEQ</CMPNAME>
+     <SCONAME>RT_STTYPECUST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound: Storage type custom settings</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

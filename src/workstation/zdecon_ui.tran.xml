@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZDECON_UI</TCODE>
+    <CINFO>CA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZDECON_UI</TCODE>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>ZDECON_UI</TCODE>
+    <TTEXT>Deconsolidation UI</TTEXT>
+   </TSTCT>
+   <TSTCP>
+    <TCODE>ZDECON_UI</TCODE>
+    <PARAM>\CLASS=ZCL_WS_DECO_UI\METHOD=START</PARAM>
+   </TSTCP>
+  </asx:values>
+ </asx:abap>
+</abapGit>
